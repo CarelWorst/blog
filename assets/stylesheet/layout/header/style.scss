@@ -1,0 +1,19 @@
+header {
+  @include display(flex);
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 0;
+  border-bottom: 1px solid $color__second;
+
+  .logo {
+    @include display(block);
+    position: absolute;
+    left: 0;
+    width: 330px;
+    height: 104px;
+    background-image: url(../../../assets/images/logo.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+}
